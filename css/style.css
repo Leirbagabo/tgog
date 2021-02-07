@@ -4,14 +4,19 @@
 }
 
 body{
+    margin: 0;
+    padding: 0;
     background-color: yellow;
     position: relative;
 }
 
 section{
-    height: 90vh;
-    padding-top: 5%;;
+    background-color:blue;
+    height: 100vh;
+    padding-top: 110px;
 }
+
+
 
 .navbar-light .navbar-nav .nav-link.active {
     color: red;
