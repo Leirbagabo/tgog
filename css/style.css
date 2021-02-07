@@ -5,4 +5,15 @@
 
 body{
     background-color: yellow;
+    position: relative;
+}
+
+section{
+    height: 90vh;
+    padding-top: 5%;;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: red;
+    border-bottom: 4px solid red;
 }
