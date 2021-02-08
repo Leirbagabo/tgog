@@ -9,13 +9,13 @@ body{
     background-color: yellow;
     position: relative;
 }
-
+/*
 section{
     background-color:blue;
     height: 100vh;
     padding-top: 110px;
 }
-
+*/
 
 
 .navbar-light .navbar-nav .nav-link.active {
@@ -23,3 +23,30 @@ section{
     border-bottom: 4px solid red;
 }
 
+/*us*/
+.about{ 
+    position: relative;
+    
+    width: 100%;
+    
+    min-height:100vh;
+    height: auto;
+    z-index: -100;
+    
+    background: url('../assets/bg-img.jpeg') no-repeat;
+    background-size: cover;
+  }
+
+  /*
+  hay que ponerle la capa con baja opacidad a la imagen aparte
+  .about{
+    background-color:rgba(170, 155, 155, 0.76);
+    
+  }
+   */
+  /* fin us*/
+
+  .title-bg-light{
+        padding-top: 6%;
+        color: rgb(255, 255, 255);
+  }

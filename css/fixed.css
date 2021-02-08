@@ -44,9 +44,9 @@ video {
   transition: 1s opacity;
 }
 
-.caption{
+.caption-home{
   position: absolute;
-  top: 12%;
+  top: 22%;
   width: 100%;
   color: #ffff;
 }
