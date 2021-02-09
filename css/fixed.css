@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 /*--- Bootstrap Mobile Gutter Fix --*/
 .row, .container-fluid {
@@ -45,14 +45,43 @@ video {
 }
 
 .caption-home{
+ padding: 0 2rem;
   position: absolute;
-  top: 22%;
+  top: 14%;
   width: 100%;
-  color: #ffff;
+  color: rgb(241, 241, 241);
 }
+
+.caption-home h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  text-shadow: .1rem .1rem .8rem rgb(255, 136, 0);
+}
+.caption-home h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: .2rem;
+  text-shadow: .1rem .1rem .8rem rgb(0, 0, 0);
+}
+
 .video-background{
   position: relative;
   width: 100%;
   min-height: 100vh;
   background-color: rgba(92, 74, 61, 0.726);
 } 
+
+@media (min-width:768px){
+  .caption-home{
+     top: 20%;
+   }
+
+   .caption-home h2{
+    font-size: 2rem;
+  }
+}
