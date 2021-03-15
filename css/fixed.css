@@ -44,10 +44,14 @@ video {
   transition: 1s opacity;
 }
 
+header{
+  position: relative;
+}
+
 .caption-home{
  padding: 0 2rem;
   position: absolute;
-  top: 14%;
+  padding-top: 12%;
   width: 100%;
   color: rgb(241, 241, 241);
 }
